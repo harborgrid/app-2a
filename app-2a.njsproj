@@ -28,6 +28,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app.js" />
     <Content Include="components\Dashboard.vue" />
     <Content Include="components\DecisionVisualzation.vue" />
     <Content Include="components\FeedbackForm.vue" />
@@ -40,9 +41,9 @@
     <Content Include="controllers\engineOneController.js" />
     <Content Include="controllers\engineTwoController.js" />
     <Content Include="controllers\mainController.js" />
-    <Content Include="middleware\engineErrorHandler.js" />
-    <Content Include="middleware\engineMiddleware.js" />
-    <Content Include="middleware\engineOneMiddlware.js" />
+    <Content Include="middlewares\engineErrorHandler.js" />
+    <Content Include="middlewares\engineMiddleware.js" />
+    <Content Include="middlewares\engineOneMiddlware.js" />
     <Content Include="models\DecisionModel.js" />
     <Content Include="models\engineOneModel.js" />
     <Content Include="engines\engine_five.js" />
@@ -88,7 +89,7 @@
     <Folder Include="controllers\" />
     <Folder Include="components\" />
     <Folder Include="config\" />
-    <Folder Include="middleware\" />
+    <Folder Include="middlewares\" />
     <Folder Include="engines\" />
     <Folder Include="routes\" />
     <Folder Include="utilities\" />
