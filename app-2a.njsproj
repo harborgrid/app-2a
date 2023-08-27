@@ -28,9 +28,71 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="components\Dashboard.vue" />
+    <Content Include="components\DecisionVisualzation.vue" />
+    <Content Include="components\FeedbackForm.vue" />
+    <Content Include="components\Notifications.vue" />
+    <Content Include="components\UserProfile.vue" />
+    <Content Include="components\UserSettings.vue" />
+    <Content Include="config\appConfig.js" />
+    <Content Include="config\configManager.js" />
+    <Content Include="config\engineConfig.js" />
+    <Content Include="controllers\engineOneController.js" />
+    <Content Include="controllers\engineTwoController.js" />
+    <Content Include="controllers\mainController.js" />
+    <Content Include="middleware\engineErrorHandler.js" />
+    <Content Include="middleware\engineMiddleware.js" />
+    <Content Include="middleware\engineOneMiddlware.js" />
+    <Content Include="models\DecisionModel.js" />
+    <Content Include="models\engineOneModel.js" />
+    <Content Include="engines\engine_five.js" />
+    <Content Include="engines\engine_four.js" />
+    <Content Include="engines\engine_one.js" />
+    <Content Include="engines\engine_three.js" />
+    <Content Include="engines\engine_two.js" />
+    <Content Include="routes\APIEngine.js" />
+    <Content Include="routes\engineOneRoutes.js" />
+    <Content Include="routes\explanationRoutes.js" />
+    <Content Include="services\analyticsEngine.js" />
+    <Content Include="services\BusinessRulesEngine.js" />
+    <Content Include="services\engineFourService.js" />
+    <Content Include="services\engineOneService.js" />
+    <Content Include="services\engineService.js" />
+    <Content Include="services\engineThree.js" />
+    <Content Include="services\engineThreeService.js" />
+    <Content Include="services\engineTwo.js" />
+    <Content Include="services\engineTwoService.js" />
+    <Content Include="services\engine_five.js" />
+    <Content Include="services\engine_four.js" />
+    <Content Include="services\explanationEngine.js" />
+    <Content Include="services\IntegratedDecisionSystem.js" />
+    <Content Include="services\LoggingService.js" />
+    <Content Include="services\OptimizationEngine.js" />
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="services\userBehaviorEngine.js" />
+    <Content Include="utilities\DatabaseUtility.js" />
+    <Content Include="utilities\DataEncryptionUtility.js" />
+    <Content Include="utilities\DataTransformer.js" />
+    <Content Include="utilities\dataValidator.js" />
+    <Content Include="utilities\dbUtility.js" />
+    <Content Include="utilities\engineUtility.js" />
+    <Content Include="utilities\logger.js" />
+    <Content Include="utilities\loggerUtility.js" />
+    <Content Include="utilities\notificationService.js" />
+    <Content Include="utilities\RateLimiter.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
+    <Folder Include="controllers\" />
+    <Folder Include="components\" />
+    <Folder Include="config\" />
+    <Folder Include="middleware\" />
+    <Folder Include="engines\" />
+    <Folder Include="routes\" />
+    <Folder Include="utilities\" />
+    <Folder Include="services\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
