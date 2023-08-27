@@ -1,4 +1,5 @@
-const config = require('./config');         //
+const config = require('./config/engineConfig');         //
+
 const express = require('express');         //
 const bodyParser = require('body-parser');  //
 const app = express();                      //
