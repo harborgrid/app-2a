@@ -1,0 +1,3 @@
+C:\Users\JustinSaadein\OneDrive - HarborGrid Inc\Documents\GitHub Laptop\app-2a\obj\Debug\app-2a.njsproj.AssemblyReference.cache
+C:\Users\JustinSaadein\OneDrive - HarborGrid Inc\Documents\GitHub Laptop\app-2a\obj\Debug\app-2a.njsproj.CoreCompileInputs.cache
+C:\Users\JustinSaadein\OneDrive - HarborGrid Inc\Documents\GitHub Laptop\app-2a\bin\Microsoft.NodejsTools.WebRole.dll
